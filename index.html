@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Test Asssiignment</title>
+    <title>Test Assignment</title>
     <meta
       name="description"
-      content="Test assingment for Approove Leads by Oleh Vasyliev"
+      content="Test assingnment for Approve Leads by Oleh Vasyliev including creating landing page via HTML + CSS + Vanilla JS and adaptive without using any fraemworks"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,6 +15,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <header></header>
@@ -33,7 +37,7 @@
               type="text"
               class="hero__input"
               placeholder="Search..."
-            /><button class="hero_inputBtn" class="hero__inputBtn"></button>
+            /><button class="hero_inputBtn"></button>
             <button class="hero__searchBtn"></button>
           </div>
           <div class="hero__slider"></div>
@@ -42,58 +46,76 @@
       <section class="partners">
         <div class="container partners__container">
           <!-- SLIDER  -->
+
+          <div class="slider"></div>
         </div>
       </section>
       <section class="section products">
         <div class="container products__container">
           <h2 class="title products__title">Our Porular Product</h2>
-          <div class="products__textContect">
+          <div class="products__header">
             <p class="products__text">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy
             </p>
-            <a href="" class="produsts__link"
-              >Discover Our Products
-              <!-- VECTOR -->
+            <a href="/" class="products__link">
+              <span class="products__link-text"> Discover Our Products </span>
+              <svg width="24" height="24">
+                <use href="./images/sprite.svg#arrow"></use>
+              </svg>
             </a>
           </div>
           <ul class="products__list">
             <li class="products__item">
-              <img src="" alt="" class="products__item-img" />
-              <h3 class="products_item-name">Cosmetic products</h3>
-              <p class="products__item-text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-              </p>
-              <div class="products__item-footer">
-                <div class="products__item-buttonsWrapper">
-                  <button
-                    class="products__item-btn products__item-btn-buy"
-                  ></button
-                  ><button
-                    class="products__item-btn products__item-btn-add"
-                  ></button>
+              <img
+                src="./images/Product-perfume.png"
+                alt="Perfume photo"
+                class="products__item-img"
+              />
+              <div class="products__item-content">
+                <h3 class="products_item-name">Cosmetic products</h3>
+                <p class="products__item-text">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy
+                </p>
+                <div class="products__item-footer">
+                  <div class="products__item-buttonsWrapper">
+                    <button class="products__item-btn products__item-btn-buy">
+                      Buy Now
+                    </button>
+                    <button class="products__item-btn products__item-btn-add">
+                      Add To Cart
+                    </button>
+                  </div>
+                  <p class="products__item-price">$120</p>
                 </div>
-                <p class="products__item-price"></p>
               </div>
             </li>
             <li class="products__item">
-              <img src="" alt="" class="products__item-img" />
-              <h3 class="products_item-name">Cosmetic products</h3>
-              <p class="products__item-text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-              </p>
-              <div class="products__item-footer">
-                <div class="products__item-buttonsWrapper">
-                  <button
-                    class="products__item-btn products__item-btn-buy"
-                  ></button
-                  ><button
-                    class="products__item-btn products__item-btn-add"
-                  ></button>
+              <img
+                src="./images/Product-soap.png"
+                alt="Perfume photo"
+                class="products__item-img"
+              />
+              <div class="products__item-content">
+                <h3 class="products_item-name">Cosmetic products</h3>
+                <p class="products__item-text">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy
+                </p>
+                <div class="products__item-footer">
+                  <div class="products__item-buttonsWrapper">
+                    <button class="products__item-btn products__item-btn-buy">
+                      Buy Now
+                    </button>
+                    <button class="products__item-btn products__item-btn-add">
+                      Add To Cart
+                    </button>
+                  </div>
+                  <p class="products__item-price">$120</p>
                 </div>
-                <p class="products__item-price"></p>
               </div>
             </li>
           </ul>
@@ -154,5 +176,6 @@
       </section>
     </main>
     <footer></footer>
+    <script src="./scripts/index.js"></script>
   </body>
 </html>

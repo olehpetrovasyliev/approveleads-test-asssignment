@@ -40,12 +40,18 @@
   color: var(--color-white);
   background: var(--color-primary);
   margin-top: 30px;
+  transition: background 0.3s ease-in-out;
 
   @media only screen and (min-width: 768px) {
     font-size: 18px;
     padding: 16px 32px;
     margin-top: 50px;
   }
+}
+
+.beauty__btn:hover,
+.beauty__btn:focus {
+  background: var(--color-black);
 }
 
 .beauty__imgWrapper {

@@ -14,7 +14,7 @@ body {
   color: var(--color-main-text);
   background-color: var(--color-white);
   font-family: var(--primary-font);
-  font-weight: 300;
+  font-weight: 400;
   font-size: 18px;
   line-height: 160%;
 
@@ -26,14 +26,18 @@ body {
 button,
 a {
   cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
 }
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 button {
   display: block;
+  text-transform: capitalize;
 }
 
 img {
@@ -77,6 +81,7 @@ img {
   line-height: 120%;
   color: var(--color-black);
   font-weight: 500;
+  text-transform: capitalize;
 
   @media only screen and (min-width: 768px) {
     font-size: 48px;
