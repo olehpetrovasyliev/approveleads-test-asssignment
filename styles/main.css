@@ -2,12 +2,16 @@
   --color-primary: #402f2c;
   --color-black: #000;
   --color-white: #ffffff;
+  --color-statistics-bg: #fdf8f5;
+
   scroll-behavior: smooth;
+  --color-main-text: #222;
+
   --primary-font: "Red Hat Display", sans-serif;
 }
 
 body {
-  color: var(--color-black);
+  color: var(--color-main-text);
   background-color: var(--color-white);
   font-family: var(--primary-font);
   font-weight: 300;
