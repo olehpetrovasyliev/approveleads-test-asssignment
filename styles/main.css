@@ -6,9 +6,11 @@
   --color-light-gray: #eee;
   --color-bg-hero: #f9f6f5;
   --color-placeholder: #999;
+  --color-main-text: #555;
+  --color-links: #222;
+  --color-reviews-navigation: #6fb587;
 
   scroll-behavior: smooth;
-  --color-main-text: #222;
 
   --primary-font: "Red Hat Display", sans-serif;
 }

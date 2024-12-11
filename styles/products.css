@@ -22,6 +22,7 @@
   justify-content: flex-end;
   align-items: center;
   gap: 8px;
+  color: var(--color-links);
 }
 
 .products__list {
@@ -42,6 +43,8 @@
 }
 
 .products_item-name {
+  color: var(--color-links);
+
   font-size: 40px;
   line-height: 60px;
   margin-bottom: 16px;

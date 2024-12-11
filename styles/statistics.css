@@ -22,8 +22,9 @@
   font-size: 36px;
   line-height: 48px;
   width: max-content;
-  border-bottom: 3px solid var(--color-main-text);
+  border-bottom: 3px solid var(--color-links);
   margin: 0 auto 20px;
+  color: var(--color-links);
 
   @media only screen and (min-width: 768px) {
     font-size: 56px;
