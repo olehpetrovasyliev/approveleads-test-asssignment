@@ -4,6 +4,8 @@
   --color-white: #ffffff;
   --color-statistics-bg: #fdf8f5;
   --color-light-gray: #eee;
+  --color-bg-hero: #f9f6f5;
+  --color-placeholder: #999;
 
   scroll-behavior: smooth;
   --color-main-text: #222;
@@ -18,6 +20,8 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 160%;
+
+  overflow-x: hidden;
 
   @media only screen and (min-width: 768px) {
     font-size: 20px;
@@ -39,6 +43,7 @@ a {
 button {
   display: block;
   text-transform: capitalize;
+  border: none;
 }
 
 img {

@@ -1,0 +1,108 @@
+.hero {
+  background: var(--color-bg-hero);
+}
+
+.hero__container {
+  display: flex;
+  gap: 30px;
+}
+.hero__content {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.hero__title {
+  z-index: 10;
+  /* position: absolute; */
+}
+
+.hero__text {
+  max-width: 516px;
+}
+
+.hero__inputWrapper {
+  position: relative;
+  max-width: 326px;
+}
+
+.hero__input {
+  padding: 14px 16px;
+  border-radius: 0;
+  border: none;
+  max-width: 100%;
+  background: var(--color-white);
+  color: var(--color-primary);
+
+  width: 294px;
+}
+
+.hero__input:hover,
+.hero__input:focus {
+  outline: 1px solid var(--color-primary);
+}
+
+.hero__input::placeholder {
+  color: var(--color-placeholder);
+}
+
+.hero_inputBtn {
+  background: var(--color-primary);
+  position: absolute;
+  top: 50%;
+  right: 8px;
+
+  transform: translateY(-50%);
+}
+.hero__slider {
+  max-width: 800px;
+  height: auto !important;
+  max-height: 600px;
+
+  position: relative !important;
+}
+.hero__imgWrapper {
+  > img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.test {
+  display: flex;
+}
+
+.hero__buttonsWrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 145px;
+  height: 138px;
+  background: var(--color-bg-hero);
+  z-index: 10 !important;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.hero__button-next {
+  position: static !important;
+
+  &::after {
+    color: var(--color-primary);
+    width: 23px;
+    height: 11px;
+  }
+}
+
+.hero__button-prev {
+  position: static !important;
+
+  &::after {
+    color: var(--color-primary);
+    width: 23px;
+    height: 11px;
+  }
+}

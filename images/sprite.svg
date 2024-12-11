@@ -57,5 +57,15 @@
 <symbol id="arrow" viewBox="0 0 32 32">
 <path d="M21.563 14.667l-7.152-7.152 1.885-1.885 10.371 10.371-10.371 10.371-1.885-1.885 7.152-7.152h-16.229v-2.667h16.229z"></path>
 </symbol>
+<symbol id="icon-Search" viewBox="0 0 32 32">
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3" d="M27.674 15.689c0 6.619-5.366 11.985-11.985 11.985s-11.985-5.366-11.985-11.985c0-6.619 5.366-11.985 11.985-11.985s11.985 5.366 11.985 11.985z"></path>
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3" d="M24.024 24.647l4.699 4.686"></path>
+</symbol>
+<symbol id="Arrow-Left-Hero" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.6" d="M20.667 25.333l-9.333-9.333 9.333-9.333"></path>
+</symbol>
+<symbol id="Arrow-Right-Hero" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.6" d="M11.333 6.667l9.333 9.333-9.333 9.333"></path>
+</symbol>
 </defs>
 </svg>

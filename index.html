@@ -33,17 +33,48 @@
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy
             </p>
-            <input
-              type="text"
-              class="hero__input"
-              placeholder="Search..."
-            /><button class="hero_inputBtn"></button>
-            <button class="hero__searchBtn"></button>
+            <div class="hero__inputWrapper">
+              <input type="text" class="hero__input" placeholder="Search..." />
+
+              <button class="hero_inputBtn">
+                <svg width="16" height="16">
+                  <use href="./images/sprite.svg#icon-Search"></use>
+                </svg>
+              </button>
+            </div>
+            <button class="hero__shopBtn">Shop Now</button>
           </div>
-          <div class="hero__slider"></div>
+          <div class="swiper hero__slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide hero__imgWrapper">
+                <img src="./images/Hero-img.png" alt="Cosmetic Product 1" />
+              </div>
+              <div class="swiper-slide hero__imgWrapper">
+                <img src="./images/Beauty.png" alt="Cosmetic Product 2" />
+              </div>
+              <div class="swiper-slide hero__imgWrapper">
+                <img
+                  src="./images/Product-perfume.png"
+                  alt="Cosmetic Product 3"
+                />
+              </div>
+            </div>
+            <div class="hero__buttonsWrapper">
+              <div class="hero__button-prev swiper-button-prev">
+                <svg width="40" height="40">
+                  <use href="./images/sprite.svg#Arrow-Left-Hero"></use>
+                </svg>
+              </div>
+              <div class="hero__button-next swiper-button-next">
+                <svg width="40" height="40">
+                  <use href="./images/sprite.svg#Arrow-Right-Hero"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
-      <section class="partners">
+      <section class="section partners">
         <div class="container partners__container">
           <div class="swiper partners__slider">
             <div class="swiper-wrapper partners__slider-wrapper">
@@ -209,6 +240,7 @@
     <footer></footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./scripts/sliders/heroSlider.js"></script>
     <script src="./scripts/sliders/partnersSlider.js"></script>
   </body>
 </html>
