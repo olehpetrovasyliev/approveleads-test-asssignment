@@ -5,6 +5,10 @@
 .hero__container {
   display: flex;
   gap: 30px;
+
+  @media only screen and (max-width: 1280px) {
+    flex-direction: column;
+  }
 }
 .hero__content {
   display: flex;
@@ -60,6 +64,10 @@
   max-height: 600px;
 
   position: relative !important;
+
+  @media only screen and (max-width: 1280px) {
+    max-width: 100%;
+  }
 }
 .hero__imgWrapper {
   > img {
@@ -104,5 +112,21 @@
     color: var(--color-primary);
     width: 23px;
     height: 11px;
+  }
+}
+
+.hero__shopBtn {
+  font-size: 16px;
+  line-height: 24px;
+  padding: 12px 24px;
+  color: var(--color-white);
+  background: var(--color-primary);
+  margin-top: 30px;
+  transition: background 0.3s ease-in-out;
+  max-width: 150px;
+
+  @media only screen and (min-width: 768px) {
+    font-size: 18px;
+    padding: 16px 32px;
   }
 }
