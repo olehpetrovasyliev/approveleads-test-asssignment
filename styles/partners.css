@@ -1,0 +1,21 @@
+.partners {
+}
+
+.partners__slider {
+  margin: 0 -200px;
+}
+
+.partners__container {
+  border-top: 1px solid var(--color-light-gray);
+  border-bottom: 1px solid var(--color-light-gray);
+  padding: 42px 0;
+}
+
+.partners__slide {
+  width: 200px !important;
+  text-align: center;
+}
+
+.partners__slider-wrapper {
+  transition-timing-function: linear !important;
+}
