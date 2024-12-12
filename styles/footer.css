@@ -1,0 +1,140 @@
+.footer {
+  padding: 103px 0 52px;
+  background: var(--color-bg-footer);
+
+  @media only screen and (max-width: 768px) {
+    padding: 50px 0 30px;
+  }
+}
+
+.footer__subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 59px;
+  border-bottom: 1px solid var(--color-footer-delimiter);
+  margin-bottom: 59px;
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+.footer__subscribe-text {
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 500;
+  color: var(--color-links);
+
+  @media only screen and (max-width: 768px) {
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+}
+
+.footer__subscribe-inputWrapper {
+  position: relative;
+  max-width: 386px;
+
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+.footer__subscribe-input {
+  padding: 18px;
+  border-radius: 0;
+  border: none;
+  background: var(--color-white);
+  color: var(--color-primary);
+  width: 350px;
+
+  @media only screen and (max-width: 768px) {
+    width: calc(100% - 36px);
+  }
+}
+
+.footer__subscribe-btn {
+  color: var(--color-white);
+  background: var(--color-primary);
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  padding: 10px 20px;
+  font-size: 14px;
+  line-height: 20px;
+  transform: translateY(-50%);
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+
+    gap: 30px;
+
+    * {
+      text-align: center;
+    }
+  }
+}
+
+.footer__info {
+  max-width: 326px;
+
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.footer__logo {
+  display: block;
+  margin-bottom: 38px;
+}
+
+.footer__title {
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 39px;
+  color: var(--color-links);
+  @media only screen and (max-width: 768px) {
+    margin-bottom: 12px;
+  }
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: var(--color-links);
+
+  * {
+    font-size: 16px;
+    line-height: 20px;
+
+    @media only screen and (max-width: 768px) {
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+}
+
+.footer__icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 27px;
+
+  @media only screen and (max-width: 768px) {
+    justify-content: center;
+  }
+}

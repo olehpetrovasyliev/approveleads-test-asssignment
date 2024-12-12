@@ -9,6 +9,8 @@
   --color-main-text: #555;
   --color-links: #222;
   --color-reviews-navigation: #6fb587;
+  --color-bg-footer: #fafafa;
+  --color-footer-delimiter: #ddd;
 
   scroll-behavior: smooth;
 

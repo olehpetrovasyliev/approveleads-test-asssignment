@@ -21,9 +21,33 @@
     />
   </head>
   <body>
-    <header></header>
+    <header class="header">
+      <div class="container header__container">
+        <a href="/" class="header__logo">
+          <svg width="130" height="30">
+            <use href="./images/sprite.svg#Dudeshape"></use>
+          </svg>
+        </a>
+        <nav class="header__nav">
+          <a href="#hero">Home</a><a href="#products">Products</a>
+          <a href="#about-us">About Us</a>
+          <a href="/">Contact Us</a>
+        </nav>
+        <div class="header__icons">
+          <svg width="24" height="24">
+            <use href="./images/sprite.svg#profile"></use>
+          </svg>
+          <svg width="24" height="24">
+            <use href="./images/sprite.svg#cart"></use>
+          </svg>
+          <svg width="24" height="24">
+            <use href="./images/sprite.svg#menu"></use>
+          </svg>
+        </div>
+      </div>
+    </header>
     <main>
-      <section class="section hero">
+      <section class="section hero" id="hero">
         <div class="container hero__container">
           <div class="hero__content">
             <h1 class="title hero__title">
@@ -112,7 +136,7 @@
           </div>
         </div>
       </section>
-      <section class="section products">
+      <section class="section products" id="products">
         <div class="container products__container">
           <h2 class="title products__title">Our Porular Product</h2>
           <div class="products__header">
@@ -201,7 +225,7 @@
           </ul>
         </div>
       </section>
-      <section class="section beauty">
+      <section class="section beauty" id="about-us">
         <div class="container beauty__container">
           <div class="beauty__content">
             <h2 class="title beauty__title">The Perfect Beauty Of You</h2>
@@ -394,7 +418,59 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__subscribe">
+          <p class="footer__subscribe-text">Subscribe to Get Our Letest News</p>
+          <div class="footer__subscribe-inputWrapper">
+            <input
+              type="email"
+              class="footer__subscribe-input"
+              placeholder="Enter email"
+            /><button class="footer__subscribe-btn">Subscribe</button>
+          </div>
+        </div>
+        <div class="footer__content">
+          <div class="footer__info">
+            <a href="/" class="footer__logo"
+              ><svg width="213" height="50">
+                <use href="./images/sprite.svg#Dudeshape"></use></svg
+            ></a>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy
+            </p>
+          </div>
+          <nav class="footer__nav">
+            <p class="footer__title">Quick Link</p>
+            <div class="footer__links">
+              <a href="#hero">Home</a>
+              <a href="#products">Products</a>
+              <a href="#about-us">About Us</a>
+            </div>
+          </nav>
+          <address class="footer__adress">
+            <p class="footer__title">Quick Link</p>
+            <div class="footer__links">
+              <a href="mailto:oyasimnaeem@email.com">oyasimnaeem@email.com</a>
+              <a href="tel:+123456789">+123456789</a>
+              <div class="footer__icons">
+                <svg width="16" height="16">
+                  <use href="./images/sprite.svg#facebook"></use>
+                </svg>
+                <svg width="16" height="16">
+                  <use href="./images/sprite.svg#twitter"></use>
+                </svg>
+                <svg width="16" height="16">
+                  <use href="./images/sprite.svg#instagram"></use>
+                </svg>
+              </div>
+            </div>
+            <!-- social -->
+          </address>
+        </div>
+      </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./scripts/sliders/heroSlider.js"></script>

@@ -43,3 +43,18 @@
     line-height: 30px;
   }
 }
+
+.footer__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__info {
+  max-width: 326px;
+}
+
+.footer__info > p {
+  font-size: 18px;
+  line-height: 32px;
+}
